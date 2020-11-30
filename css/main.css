@@ -365,7 +365,7 @@ nav button.active {
   position: relative;
   width: 100vw;
   height: 500px;
-  background: url(/images/img8.jpg);
+  background: url(./../images/img8.jpg);
   background-size: cover;
 }
 .Slider .container .clip {
@@ -378,22 +378,22 @@ nav button.active {
 }
 
 .Slider .container .clip.clip1 {
-  background: url(/images/img8.jpg);
+  background: url(./../images/img8.jpg);
   background-size: cover;
   clip-path: polygon(0 0, 30% 0, 20% 100%, 0% 100%);
 }
 .Slider .container .clip.clip2 {
-  background: url(/images/img11.jpg);
+  background: url(./../images/img11.jpg);
   background-size: cover;
   clip-path: polygon(30% 0, 57% 0, 47% 100%, 20% 100%);
 }
 .Slider .container .clip.clip3 {
-  background: url(/images/img10.jpg);
+  background: url(./../images/img10.jpg);
   background-size: cover;
   clip-path: polygon(57% 0, 85% 0, 75% 100%, 47% 100%);
 }
 .Slider .container .clip.clip4 {
-  background: url(/images/img12.jpg);
+  background: url(./../images/img12.jpg);
   background-size: cover;
   clip-path: polygon(85% 0, 100% 0, 100% 100%, 75% 100%);
 }
