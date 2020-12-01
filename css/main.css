@@ -233,14 +233,14 @@ nav button.active {
   min-height: 500px;
   background: #111;
 }
-.Slider .container {
+.Slider .containersd {
   position: relative;
   width: 100vw;
   height: 500px;
   background: url(./../images/img8.jpg);
   background-size: cover;
 }
-.Slider .container .clip {
+.Slider .containersd .clip {
   position: absolute;
   top: 0;
   left: 0;
@@ -249,34 +249,34 @@ nav button.active {
   transition: 0.5s;
 }
 
-.Slider .container .clip.clip1 {
+.Slider .containersd .clip.clip1 {
   background: url(./../images/img8.jpg);
   background-size: cover;
   clip-path: polygon(0 0, 30% 0, 20% 100%, 0% 100%);
 }
-.Slider .container .clip.clip2 {
+.Slider .containersd .clip.clip2 {
   background: url(./../images/img11.jpg);
   background-size: cover;
   clip-path: polygon(30% 0, 57% 0, 47% 100%, 20% 100%);
 }
-.Slider .container .clip.clip3 {
+.Slider .containersd .clip.clip3 {
   background: url(./../images/img10.jpg);
   background-size: cover;
   clip-path: polygon(57% 0, 85% 0, 75% 100%, 47% 100%);
 }
-.Slider .container .clip.clip4 {
+.Slider .containersd .clip.clip4 {
   background: url(./../images/img12.jpg);
   background-size: cover;
   clip-path: polygon(85% 0, 100% 0, 100% 100%, 75% 100%);
 }
-.Slider .container:hover .clip {
+.Slider .containersd:hover .clip {
   clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
 }
-.Slider .container .clip:hover {
+.Slider .containersd .clip:hover {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-.Slider .container .clip .content {
+.Slider .containersd .clip .content {
   position: absolute;
   bottom: -100%;
   right: 0;
@@ -288,7 +288,7 @@ nav button.active {
   transition: 0.5s;
 }
 
-.Slider .container .clip:hover .content {
+.Slider .containersd .clip:hover .content {
   bottom: 0;
   opacity: 1;
 }
@@ -350,7 +350,7 @@ nav button.active {
   background: #44444441;
 }
 
-.cardlist .card {
+.cardlist .cardlt {
   height: 350px;
   width: 400px;
   min-width: 250px;
@@ -366,7 +366,7 @@ nav button.active {
   overflow: hidden;
   color: #fff;
 }
-.cardlist .card::before {
+.cardlist .cardlt::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -376,30 +376,30 @@ nav button.active {
   background: linear-gradient(to bottom, #00000000, #000000de);
 }
 
-.card:focus-within ~ .card,
-.card:hover ~ .card {
+.cardlt:focus-within ~ .cardlt,
+.cardlt:hover ~ .cardlt {
   transform: translateX(130px);
 }
 
-.cardlist .card .imgBox img {
+.cardlist .cardlt .imgBox img {
   width: 350px;
 }
 
-.cardlist .card .content {
+.cardlist .cardlt .content {
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 20px;
 }
 
-.cardlist .card .content a {
+.cardlist .cardlt .content a {
   color: #fff;
 }
-.cardlist .card:hover {
+.cardlist .cardlt:hover {
   transform: translateY(-1rem);
 }
 
-.cardlist .card:not(:first-child) {
+.cardlist .cardlt:not(:first-child) {
   margin-left: -130px;
 }
 
@@ -407,30 +407,30 @@ nav button.active {
 
 .newsEvent {
   position: relative;
-  display: flex;
-  width: 100%;
+  /* display: flex;
+  width: 100%; */
   height: auto;
-  padding: 15px;
+  /* padding: 15px; */
   background: #fff;
 }
 .newsEvent .news {
-  width: 50%;
-  padding: 0 20px;
-  justify-content: center;
-  align-items: center;
-  border-right: 2px solid #000;
+  /* width: 50%; */
+  /* padding: 0 20px; */
+  /* justify-content: center;
+  align-items: center; */
+  /* border-right: 2px solid #000; */
 }
 .newsEvent .news .cardns {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   height: auto;
-  margin: 15px 0;
-  padding: 10px;
+  /* margin: 15px 0;
+  padding: 10px; */
   border: 0.1px solid rgba(0, 0, 0, 0.39);
   border-radius: 27px;
   background: #fff;
-  box-shadow: 10px 10px 42px -21px rgba(0, 0, 0, 0.75);
+  /* box-shadow: 10px 10px 42px -21px rgba(0, 0, 0, 0.75); */
 }
 .newsEvent .news .cardns .content {
   width: 65%;
@@ -454,24 +454,24 @@ nav button.active {
 }
 /* Event */
 .newsEvent .Events {
-  width: 50%;
+  /* width: 50%; */
   padding: 5px 0;
 }
 .newsEvent .Events .cardet {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   height: auto;
-  margin: 15px;
+  /* margin: 15px; */
   border-radius: 27px;
   border: 0.1px solid rgba(0, 0, 0, 0.39);
   background: #ffffff;
-  box-shadow: 10px 10px 42px -21px rgba(0, 0, 0, 0.75);
-  padding: 12px 0;
+  /* box-shadow: 10px 10px 42px -21px rgba(0, 0, 0, 0.75); */
+  /* padding: 12px 0; */
 }
 .newsEvent .Events .cardet .content {
   width: 65%;
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 .newsEvent .Events .cardet .content h2,
 .newsEvent .Events .cardet .content h4 {
@@ -824,20 +824,18 @@ nav button.active {
 footer {
   position: relative;
   background: linear-gradient(to right, #000428, #004e92);
-  padding: 50px 0 10px 0;
+  color: #fff;
+  /* padding: 50px 0 10px 0; */
 }
 
-footer .footer_container {
+/* footer .footer_container {
   position: relative;
   display: flex;
   justify-content: center;
   color: #fff;
   flex-wrap: wrap;
-}
+} */
 
-footer .footer_container .logo {
-  width: 250px;
-}
 footer .footer_container .logo img {
   width: 250px;
 }
@@ -845,21 +843,18 @@ footer .footer_container .logo img {
 footer .footer_container .logo p {
   font-size: 12px;
   text-align: justify;
+  color: #fff;
 }
 
-footer .footer_container .contents {
+/* footer .footer_container .contents {
   position: relative;
   display: flex;
   /* padding-left: 50px; */
-  width: 765px;
+/*width: 765px;
   justify-content: space-around;
   align-items: start;
   flex-wrap: wrap;
-}
-
-footer .footer_container .contents .Services {
-  /* padding: 0 70px 0 70px; */
-}
+} */
 
 footer .footer_container .contents .Services ul {
   list-style: none;
@@ -876,10 +871,6 @@ footer .footer_container .contents .Services ul li {
 footer .footer_container .contents .Services ul li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-}
-
-footer .footer_container .contents .Resources {
-  /* padding: 0 70px 0 70px; */
 }
 
 footer .footer_container .contents .Resources ul {
@@ -899,10 +890,6 @@ footer .footer_container .contents .Resources ul li a {
   color: rgb(255, 255, 255);
 }
 
-footer .footer_container .contents .Links {
-  /* padding: 0 70px 0 70px; */
-}
-
 footer .footer_container .contents .Links ul {
   list-style: none;
 }
@@ -918,9 +905,6 @@ footer .footer_container .contents .Links ul li {
 footer .footer_container .contents .Links ul li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-}
-footer .footer_container .contents div {
-  padding: 19px 58px;
 }
 
 /* ------------------------- */

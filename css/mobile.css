@@ -129,43 +129,43 @@
   }
 }
 @media (max-width: 750px) {
-  .Slider .container .clip {
+  .Slider .containersd .clip {
     position: relative;
     width: 100%;
     height: 100%;
     transition: 0.5s;
   }
-  .Slider .container .clip.clip1 {
+  .Slider .containersd .clip.clip1 {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
-  .Slider .container .clip.clip2 {
+  .Slider .containersd .clip.clip2 {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
-  .Slider .container .clip.clip3 {
+  .Slider .containersd .clip.clip3 {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
-  .Slider .container .clip.clip4 {
+  .Slider .containersd .clip.clip4 {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
-  .Slider .container:hover .clip {
+  .Slider .containersd:hover .clip {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
-  .Slider .container .clip:hover {
+  .Slider .containersd .clip:hover {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
-  .Slider .container .clip .content {
+  .Slider .containersd .clip .content {
     bottom: 0;
     opacity: 1;
   }
 }
 @media (max-width: 480px) {
-  .Slider .container .clip .content {
+  .Slider .containersd .clip .content {
     width: 100%;
     font-size: 15px;
   }
 }
 @media (max-width: 991px) {
-  .who-we-are div {
+  s .who-we-are div {
     width: 90%;
   }
 }
@@ -196,22 +196,28 @@
   }
 }
 
-@media (max-width: 1000px) {
-  .newsEvent .news .cardns {
+@media (max-width: 584px) {
+  /* .newsEvent .news .cardns {
     flex-direction: column-reverse;
-  }
+  } */
   .newsEvent .news .cardns .content {
-    width: 100%;
+    width: 90%;
+    padding-right: 0;
+  }
+  .newsEvent .news .cardns .content p {
+    padding-right: 0;
   }
 }
-@media (max-width: 815px) {
-  .newsEvent .Events .cardet {
+
+@media (max-width: 580px) {
+  /* .newsEvent .Events .cardet {
     flex-direction: column;
-  }
+  } */
   .newsEvent .Events .cardet .content {
     width: 100%;
   }
 }
+/* 
 @media (max-width: 618px) {
   .newsEvent {
     flex-direction: column;
@@ -227,7 +233,7 @@
   .newsEvent .Events .cardet .content {
     padding-left: 15px;
   }
-}
+} */
 @media (max-width: 750px) {
   .swiper-container {
     width: 100%;
@@ -258,5 +264,18 @@
   }
   .swiper-button-prev {
     display: block;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cardlist .cardlt:not(:first-child) {
+    margin-left: 22px;
+  }
+  .cardlt:focus-within ~ .cardlt,
+  .cardlt:hover ~ .cardlt {
+    transform: none;
+  }
+  .cardlist .cardlt:hover {
+    transform: none;
   }
 }
