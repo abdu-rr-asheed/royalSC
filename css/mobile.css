@@ -260,3 +260,16 @@
     display: block;
   }
 }
+
+@media (max-width: 1200px) {
+  .cardlist .card:not(:first-child) {
+    margin-left: 22px;
+  }
+  .card:focus-within ~ .card,
+  .card:hover ~ .card {
+    transform: none;
+  }
+  .cardlist .card:hover {
+    transform: none;
+  }
+}
