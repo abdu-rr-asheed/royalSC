@@ -4,7 +4,6 @@
 }
 
 .imgBox {
-  width: 179.33px;
   height: 179.33px;
 }
 
@@ -14,4 +13,8 @@
 
 .carousel-caption {
   background: rgba(0, 0, 0, 0.467);
+}
+
+footer {
+  background: linear-gradient(to right, #000428, #004e92);
 }
