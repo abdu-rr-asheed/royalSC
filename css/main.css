@@ -7,3 +7,11 @@
   width: 179.33px;
   height: 179.33px;
 }
+
+.jumbotron {
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.467);
+}
